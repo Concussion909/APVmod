@@ -1,0 +1,30 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[24,)" #mandatory (24 is current forge version)
+[[mods]] #mandatory
+modId="antiplantvirus" #mandatory
+version="0.1" #mandatory
+displayName="AntiPlantVirus" #mandatory
+credits="Thanks for this AntiPlantVirus mod goes to redacted" #optional
+authors="Concussion909" #optional
+description='''
+This is a long form description of the mod. You can write whatever you want here TEST1.
+'''
+[[dependencies.AntiPlantVirus]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[25,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.AntiPlantVirus]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.13.2]"
+    ordering="NONE"
+    side="BOTH"

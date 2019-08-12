@@ -1,0 +1,22 @@
+{
+	"item.antiplantvirus.apv_vseed": "Virus Seed",
+	
+	"item.antiplantvirus.apv_axe": "apv Axe",
+	"item.antiplantvirus.apv_hoe": "apv Hoe",
+	"item.antiplantvirus.apv_pickaxe": "apv Pickaxe",
+	"item.antiplantvirus.apv_shovel": "apv Shovel",
+	"item.antiplantvirus.apv_sword": "apv Sword",
+	
+	"item.antiplantvirus.apv_helmet": "apv Helmet",
+	"item.antiplantvirus.apv_chestplate": "apv Chestplate",
+	"item.antiplantvirus.apv_leggings": "apv Leggings",
+	"item.antiplantvirus.apv_boots": "apv Boots",
+	
+	"block.antiplantvirus.apv_virallog": "Viral Wood",
+	"block.antiplantvirus.apv_plaguestonecobble": "Plague Cobblestone",
+	"block.antiplantvirus.apv_ore": "apv Ore",
+	"block.antiplantvirus.apv_ore_nether": "apv Nether Ore",
+	"block.antiplantvirus.apv_ore_end": "apv End Ore",
+	
+	"itemGroup.apv": "apv Item Group"
+}

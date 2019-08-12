@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "antiplantvirus:block/apv_virallogtop",
+        "side": "antiplantvirus:block/apv_virallog"
+    }
+}

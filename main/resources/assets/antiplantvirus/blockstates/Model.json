@@ -1,0 +1,584 @@
+	public ModelRenderer head1;
+	public ModelRenderer horn1;
+	public ModelRenderer horn2;
+	public ModelRenderer horn3;
+	public ModelRenderer chest;
+	public ModelRenderer body1;
+	public ModelRenderer body2;
+	public ModelRenderer tail1;
+	public ModelRenderer tail2;
+	public ModelRenderer Lshoulder1;
+	public ModelRenderer Lshoulder2;
+	public ModelRenderer Lshoulder3;
+	public ModelRenderer Lshoulder4;
+	public ModelRenderer Lshoulder5;
+	public ModelRenderer Lshoulder2ex;
+	public ModelRenderer Rshoulder1;
+	public ModelRenderer Rshoulder2;
+	public ModelRenderer Rshoulder3;
+	public ModelRenderer Rshoulder4;
+	public ModelRenderer Rshoulder5;
+	public ModelRenderer Rshoulder2ex;
+	public ModelRenderer Lleg1;
+	public ModelRenderer Lleg2;
+	public ModelRenderer Lleg3;
+	public ModelRenderer Lleg4;
+	public ModelRenderer Lleg5;
+	public ModelRenderer Lleg6;
+	public ModelRenderer Lleg7;
+	public ModelRenderer Lleg8;
+	public ModelRenderer Rleg1;
+	public ModelRenderer Rleg2;
+	public ModelRenderer Rleg3;
+	public ModelRenderer Rleg4;
+	public ModelRenderer Rleg5;
+	public ModelRenderer Rleg6;
+	public ModelRenderer Rleg7;
+	public ModelRenderer Rleg8;
+	public ModelRenderer Lleg21;
+	public ModelRenderer Lleg22;
+	public ModelRenderer Lleg23;
+	public ModelRenderer Lleg24;
+	public ModelRenderer Lleg25;
+	public ModelRenderer Lleg26;
+	public ModelRenderer Lleg27;
+	public ModelRenderer Lleg28;
+	public ModelRenderer Rleg21;
+	public ModelRenderer Rleg22;
+	public ModelRenderer Rleg23;
+	public ModelRenderer Rleg24;
+	public ModelRenderer Rleg25;
+	public ModelRenderer Rleg26;
+	public ModelRenderer Rleg27;
+	public ModelRenderer Rleg28;
+	public ModelRenderer Lhand1;
+	public ModelRenderer Lhand2;
+	public ModelRenderer Lhand3;
+	public ModelRenderer Lhand4;
+	public ModelRenderer Lhand5;
+	public ModelRenderer Rhand1;
+	public ModelRenderer Rhand2;
+	public ModelRenderer Rhand3;
+	public ModelRenderer Rhand4;
+	public ModelRenderer Rhand5;
+	public ModelRenderer RW1;
+	public ModelRenderer RW2;
+	public ModelRenderer LW1;
+	public ModelRenderer LW2;
+
+
+public SoldierBugModel()
+{
+  this.textureWidth = 128;
+  this.textureHeight = 128;
+  
+  this.head1 = new ModelRenderer(this, 101, 0);
+  this.head1.addBox(0.0F, -2.0F, -2.0F, 9, 4, 4, 0.0F);
+  this.head1.setRotationPoint(0.0F, -3.0F, 4.0F);
+  this.head1.rotateAngleX = 0.7853982F;
+  this.head1.rotateAngleY = 1.570796F;
+  this.head1.rotateAngleZ = 0.1487144F;
+  this.head1.mirror = false;
+  
+  this.horn1 = new ModelRenderer(this, 86, 0);
+  this.horn1.addBox(9.0F, -2.0F, 0.0F, 4, 2, 2, 0.0F);
+  this.horn1.mirror = false;
+  
+  this.horn2 = new ModelRenderer(this, 91, 6);
+  this.horn2.addBox(13.0F, -2.0F, 1.0F, 2, 1, 1, 0.0F);
+  this.horn2.mirror = false;
+  
+  this.horn3 = new ModelRenderer(this, 82, 6);
+  this.horn3.addBox(14.0F, -2.8F, 0.0F, 3, 1, 1, 0.0F);
+  this.horn3.setRotationPoint(0.0F, -3.0F, 4.0F);
+  this.horn3.rotateAngleX = 2.790295E-16F;
+  this.horn3.rotateAngleY = 1.570796F;
+  this.horn3.rotateAngleZ = 0.1487144F;
+  this.horn3.mirror = false;
+  
+  this.head1.addChild(this.horn1);
+  this.head1.addChild(this.horn2);
+  
+  this.chest = new ModelRenderer(this, 73, 10);
+  this.chest.addBox(-8.0F, -2.0F, -5.5F, 16, 4, 11, 0.0F);
+  this.chest.setRotationPoint(0.0F, 1.0F, 3.0F);
+  this.chest.rotateAngleX = 0.0F;
+  this.chest.rotateAngleY = 1.570796F;
+  this.chest.rotateAngleZ = 0.7063936F;
+  this.chest.mirror = false;
+  
+  this.body1 = new ModelRenderer(this, 107, 27);
+  this.body1.addBox(-3.0F, -7.0F, -1.5F, 4, 16, 6, 0.0F);
+  this.body1.setRotationPoint(-1.5F, 6.0F, 1.0F);
+  this.body1.rotateAngleX = 0.0F;
+  this.body1.rotateAngleY = 1.570796F;
+  this.body1.rotateAngleZ = -0.3346075F;
+  this.body1.mirror = false;
+  
+  this.body2 = new ModelRenderer(this, 56, 27);
+  this.body2.addBox(-8.0F, -1.0F, -4.5F, 16, 5, 9, 0.0F);
+  this.body2.setRotationPoint(0.0F, 15.0F, 5.0F);
+  this.body2.rotateAngleX = 0.0F;
+  this.body2.rotateAngleY = 1.570796F;
+  this.body2.rotateAngleZ = -0.4089647F;
+  this.body2.mirror = false;
+  
+  this.tail1 = new ModelRenderer(this, 55, 1);
+  this.tail1.addBox(-8.0F, -1.0F, -2.0F, 9, 2, 4, 0.0F);
+  this.tail1.setRotationPoint(0.0F, 19.0F, 12.0F);
+  this.tail1.rotateAngleX = 5.270557E-16F;
+  this.tail1.rotateAngleY = 1.570796F;
+  this.tail1.rotateAngleZ = 0.2974289F;
+  this.tail1.mirror = false;
+  this.tail2 = new ModelRenderer(this, 60, 9);
+  this.tail2.addBox(-11.0F, 1.0F, -2.0F, 4, 1, 1, 0.0F);
+  this.tail2.setRotationPoint(0.0F, 19.0F, 12.0F);
+  this.tail2.rotateAngleX = 0.7853982F;
+  this.tail2.rotateAngleY = 1.570796F;
+  this.tail2.rotateAngleZ = 0.5576792F;
+  this.tail2.mirror = false;
+  
+  this.Lshoulder1 = new ModelRenderer(this, 52, 13);
+  this.Lshoulder1.mirror = false;
+  this.Lshoulder1.addBox(0.0F, -1.0F, -0.5F, 8, 2, 2, 0.0F);
+  this.Lshoulder1.setRotationPoint(3.5F, -4.0F, 8.0F);
+  this.Lshoulder1.rotateAngleX = 0.0F;
+  this.Lshoulder1.rotateAngleY = 1.570796F;
+  this.Lshoulder1.rotateAngleZ = -2.41661F;
+  
+  this.Lshoulder2 = new ModelRenderer(this, 34, 18);
+  this.Lshoulder2.mirror = false;
+  this.Lshoulder2.addBox(-3.0F, -1.0F, -1.0F, 15, 4, 4, 0.0F);
+  this.Lshoulder2.setRotationPoint(3.0F, -7.8F, 18.0F);
+  this.Lshoulder2.rotateAngleX = 0.0F;
+  this.Lshoulder2.rotateAngleY = 1.570796F;
+  this.Lshoulder2.rotateAngleZ = -0.5948578F;
+  
+  this.Lshoulder3 = new ModelRenderer(this, 41, 9);
+  this.Lshoulder3.mirror = false;
+  this.Lshoulder3.addBox(12.0F, -1.0F, -0.5F, 8, 2, 1, 0.0F);
+  this.Lshoulder3.setRotationPoint(4.0F, -7.8F, 18.0F);
+  this.Lshoulder3.rotateAngleX = 0.0F;
+  this.Lshoulder3.rotateAngleY = 1.570796F;
+  this.Lshoulder3.rotateAngleZ = -0.5948578F;
+  
+  this.Lshoulder4 = new ModelRenderer(this, 40, 14);
+  this.Lshoulder4.mirror = false;
+  this.Lshoulder4.addBox(20.0F, -1.0F, -0.5F, 4, 1, 1, 0.0F);
+  this.Lshoulder4.setRotationPoint(4.0F, -7.8F, 18.0F);
+  this.Lshoulder4.rotateAngleX = 0.0F;
+  this.Lshoulder4.rotateAngleY = 1.570796F;
+  this.Lshoulder4.rotateAngleZ = -0.5948578F;
+  
+  this.Lshoulder5 = new ModelRenderer(this, 26, 10);
+  this.Lshoulder5.mirror = false;
+  this.Lshoulder5.addBox(12.0F, 1.7F, -0.5F, 6, 1, 1, 0.0F);
+  this.Lshoulder5.setRotationPoint(4.0F, -7.8F, 18.0F);
+  this.Lshoulder5.rotateAngleX = 0.0F;
+  this.Lshoulder5.rotateAngleY = 1.570796F;
+  this.Lshoulder5.rotateAngleZ = -0.5948578F;
+  
+  this.Lshoulder2ex = new ModelRenderer(this, 13, 28);
+  this.Lshoulder2ex.mirror = false;
+  this.Lshoulder2ex.addBox(-3.0F, 0.0F, -2.0F, 15, 2, 6, 0.0F);
+  this.Lshoulder2ex.setRotationPoint(3.0F, -7.8F, 18.0F);
+  this.Lshoulder2ex.rotateAngleX = 0.0F;
+  this.Lshoulder2ex.rotateAngleY = 1.570796F;
+  this.Lshoulder2ex.rotateAngleZ = -0.5948578F;
+  
+  this.Rshoulder1 = new ModelRenderer(this, 52, 13);
+  this.Rshoulder1.addBox(0.0F, -1.0F, -0.5F, 8, 2, 2, 0.0F);
+  this.Rshoulder1.setRotationPoint(-4.5F, -4.0F, 8.0F);
+  this.Rshoulder1.rotateAngleX = 0.0F;
+  this.Rshoulder1.rotateAngleY = 1.570796F;
+  this.Rshoulder1.rotateAngleZ = -2.41661F;
+  this.Rshoulder1.mirror = false;
+  
+  this.Rshoulder2 = new ModelRenderer(this, 34, 18);
+  this.Rshoulder2.addBox(-3.0F, -1.0F, -1.0F, 15, 4, 4, 0.0F);
+  this.Rshoulder2.setRotationPoint(-5.0F, -7.8F, 18.0F);
+  this.Rshoulder2.rotateAngleX = 0.0F;
+  this.Rshoulder2.rotateAngleY = 1.570796F;
+  this.Rshoulder2.rotateAngleZ = -0.5948578F;
+  this.Rshoulder2.mirror = false;
+  
+  this.Rshoulder3 = new ModelRenderer(this, 41, 9);
+  this.Rshoulder3.addBox(12.0F, -1.0F, -0.5F, 8, 2, 1, 0.0F);
+  this.Rshoulder3.setRotationPoint(-4.0F, -7.8F, 18.0F);
+  this.Rshoulder3.rotateAngleX = 0.0F;
+  this.Rshoulder3.rotateAngleY = 1.570796F;
+  this.Rshoulder3.rotateAngleZ = -0.5948578F;
+  this.Rshoulder3.mirror = false;
+  
+  this.Rshoulder4 = new ModelRenderer(this, 40, 14);
+  this.Rshoulder4.addBox(20.0F, -1.0F, -0.5F, 4, 1, 1, 0.0F);
+  this.Rshoulder4.setRotationPoint(-4.0F, -7.8F, 18.0F);
+  this.Rshoulder4.rotateAngleX = 0.0F;
+  this.Rshoulder4.rotateAngleY = 1.570796F;
+  this.Rshoulder4.rotateAngleZ = -0.5948578F;
+  this.Rshoulder4.mirror = false;
+  
+  this.Rshoulder5 = new ModelRenderer(this, 26, 10);
+  this.Rshoulder5.addBox(12.0F, 1.7F, -0.5F, 6, 1, 1, 0.0F);
+  this.Rshoulder5.setRotationPoint(-4.0F, -7.8F, 18.0F);
+  this.Rshoulder5.rotateAngleX = 0.0F;
+  this.Rshoulder5.rotateAngleY = 1.570796F;
+  this.Rshoulder5.rotateAngleZ = -0.5948578F;
+  this.Rshoulder5.mirror = false;
+  
+  this.Rshoulder2ex = new ModelRenderer(this, 13, 28);
+  this.Rshoulder2ex.addBox(-3.0F, 0.0F, -4.0F, 15, 2, 6, 0.0F);
+  this.Rshoulder2ex.setRotationPoint(-3.0F, -7.8F, 18.0F);
+  this.Rshoulder2ex.rotateAngleX = 0.0F;
+  this.Rshoulder2ex.rotateAngleY = 1.570796F;
+  this.Rshoulder2ex.rotateAngleZ = -0.5948578F;
+  this.Rshoulder2ex.mirror = false;
+  
+  this.Lleg1 = new ModelRenderer(this, 98, 51);
+  this.Lleg1.mirror = false;
+  this.Lleg1.addBox(0.0F, 1.5F, -1.0F, 12, 2, 3, 0.0F);
+  this.Lleg1.setRotationPoint(4.0F, 14.0F, -1.0F);
+  this.Lleg1.rotateAngleX = 0.0F;
+  this.Lleg1.rotateAngleY = 0.9387602F;
+  this.Lleg1.rotateAngleZ = -0.5205005F;
+  this.Lleg2 = new ModelRenderer(this, 90, 43);
+  this.Lleg2.mirror = true;
+  this.Lleg2.addBox(5.0F, -10.5F, 2.5F, 6, 4, 2, 0.0F);
+  this.Lleg2.setRotationPoint(4.0F, 14.0F, -1.0F);
+  this.Lleg2.rotateAngleX = 0.3717861F;
+  this.Lleg2.rotateAngleY = 0.9387602F;
+  this.Lleg2.rotateAngleZ = 0.8922867F;
+  this.Lleg3 = new ModelRenderer(this, 83, 50);
+  this.Lleg3.mirror = true;
+  this.Lleg3.addBox(11.0F, -10.5F, 2.5F, 5, 3, 2, 0.0F);
+  this.Lleg4 = new ModelRenderer(this, 81, 46);
+  this.Lleg4.mirror = true;
+  this.Lleg4.addBox(16.0F, -10.5F, 3.5F, 3, 2, 1, 0.0F);
+  this.Lleg5 = new ModelRenderer(this, 82, 43);
+  this.Lleg5.mirror = true;
+  this.Lleg5.addBox(19.0F, -10.5F, 3.5F, 2, 1, 1, 0.0F);
+  this.Lleg6 = new ModelRenderer(this, 42, 43);
+  this.Lleg6.mirror = false;
+  this.Lleg6.addBox(0.0F, -2.5F, -1.0F, 16, 4, 3, 0.0F);
+  this.Lleg7 = new ModelRenderer(this, 43, 37);
+  this.Lleg7.mirror = false;
+  this.Lleg7.addBox(16.0F, -1.5F, -0.5F, 4, 2, 2, 0.0F);
+  this.Lleg8 = new ModelRenderer(this, 36, 38);
+  this.Lleg8.mirror = false;
+  this.Lleg8.addBox(20.0F, -1.0F, 0.0F, 2, 1, 1, 0.0F);
+  this.Lleg2.addChild(this.Lleg3);
+  this.Lleg2.addChild(this.Lleg4);
+  this.Lleg2.addChild(this.Lleg5);
+  this.Lleg1.addChild(this.Lleg6);
+  this.Lleg1.addChild(this.Lleg7);
+  this.Lleg1.addChild(this.Lleg8);
+  
+  this.Rleg1 = new ModelRenderer(this, 98, 51);
+  this.Rleg1.addBox(0.0F, 1.5F, -2.0F, 12, 2, 3, 0.0F);
+  this.Rleg1.setRotationPoint(-4.0F, 14.0F, -1.0F);
+  this.Rleg1.rotateAngleX = 0.0F;
+  this.Rleg1.rotateAngleY = 2.202832F;
+  this.Rleg1.rotateAngleZ = -0.5205005F;
+  this.Rleg1.mirror = false;
+  this.Rleg2 = new ModelRenderer(this, 90, 43);
+  this.Rleg2.addBox(-11.0F, -10.5F, 2.5F, 6, 4, 2, 0.0F);
+  this.Rleg2.setRotationPoint(-4.0F, 14.0F, -1.0F);
+  this.Rleg2.rotateAngleX = 0.3717861F;
+  this.Rleg2.rotateAngleY = -0.957348F;
+  this.Rleg2.rotateAngleZ = -0.8922867F;
+  this.Rleg2.mirror = false;
+  this.Rleg3 = new ModelRenderer(this, 83, 50);
+  this.Rleg3.addBox(-16.0F, -10.5F, 2.5F, 5, 3, 2, 0.0F);
+  this.Rleg3.mirror = false;
+  this.Rleg4 = new ModelRenderer(this, 81, 46);
+  this.Rleg4.addBox(-19.0F, -10.5F, 3.5F, 3, 2, 1, 0.0F);
+  this.Rleg4.mirror = false;
+  this.Rleg5 = new ModelRenderer(this, 82, 43);
+  this.Rleg5.addBox(-21.0F, -10.5F, 3.5F, 2, 1, 1, 0.0F);
+  this.Rleg5.mirror = false;
+  this.Rleg6 = new ModelRenderer(this, 42, 43);
+  this.Rleg6.addBox(0.0F, -2.5F, -2.0F, 16, 4, 3, 0.0F);
+  this.Rleg6.mirror = false;
+  this.Rleg7 = new ModelRenderer(this, 43, 37);
+  this.Rleg7.addBox(16.0F, -1.5F, -1.5F, 4, 2, 2, 0.0F);
+  this.Rleg7.mirror = false;
+  this.Rleg8 = new ModelRenderer(this, 36, 38);
+  this.Rleg8.addBox(20.0F, -1.0F, -1.0F, 2, 1, 1, 0.0F);
+  this.Rleg8.mirror = false;
+  this.Rleg2.addChild(this.Rleg3);
+  this.Rleg2.addChild(this.Rleg4);
+  this.Rleg2.addChild(this.Rleg5);
+  this.Rleg1.addChild(this.Rleg6);
+  this.Rleg1.addChild(this.Rleg7);
+  this.Rleg1.addChild(this.Rleg8);
+  
+  this.Lleg21 = new ModelRenderer(this, 40, 51);
+  this.Lleg21.mirror = false;
+  this.Lleg21.addBox(-17.0F, 0.5F, 0.0F, 18, 2, 3, 0.0F);
+  this.Lleg21.setRotationPoint(3.0F, 18.0F, 10.0F);
+  this.Lleg21.rotateAngleX = 0.0F;
+  this.Lleg21.rotateAngleY = 2.202832F;
+  this.Lleg21.rotateAngleZ = 0.7435722F;
+  this.Lleg22 = new ModelRenderer(this, 21, 14);
+  this.Lleg22.mirror = true;
+  this.Lleg22.addBox(-7.0F, 0.7F, 11.5F, 2, 8, 4, 0.0F);
+  this.Lleg22.setRotationPoint(3.0F, 18.0F, 10.0F);
+  this.Lleg22.rotateAngleX = 0.5948578F;
+  this.Lleg22.rotateAngleY = 1.08748F;
+  this.Lleg22.rotateAngleZ = 0.2230717F;
+  this.Lleg23 = new ModelRenderer(this, 10, 18);
+  this.Lleg23.mirror = true;
+  this.Lleg23.addBox(-7.0F, 8.7F, 12.5F, 2, 5, 3, 0.0F);
+  this.Lleg24 = new ModelRenderer(this, 19, 7);
+  this.Lleg24.mirror = true;
+  this.Lleg24.addBox(-7.0F, 13.7F, 13.5F, 1, 3, 2, 0.0F);
+  this.Lleg25 = new ModelRenderer(this, 36, 7);
+  this.Lleg25.mirror = true;
+  this.Lleg25.addBox(-7.0F, 16.7F, 14.5F, 1, 2, 1, 0.0F);
+  this.Lleg26 = new ModelRenderer(this, 78, 58);
+  this.Lleg26.mirror = false;
+  this.Lleg26.addBox(-21.0F, -2.5F, 0.0F, 22, 3, 3, 0.0F);
+  this.Lleg27 = new ModelRenderer(this, 42, 1);
+  this.Lleg27.mirror = false;
+  this.Lleg27.addBox(-25.0F, -2.0F, 0.5F, 4, 2, 2, 0.0F);
+  this.Lleg28 = new ModelRenderer(this, 27, 7);
+  this.Lleg28.mirror = true;
+  this.Lleg28.addBox(-28.0F, -1.5F, 1.0F, 3, 1, 1, 0.0F);
+  
+  this.Lleg22.addChild(this.Lleg23);
+  this.Lleg22.addChild(this.Lleg24);
+  this.Lleg22.addChild(this.Lleg25);
+  this.Lleg21.addChild(this.Lleg26);
+  this.Lleg21.addChild(this.Lleg27);
+  this.Lleg21.addChild(this.Lleg28);
+  
+  this.Rleg21 = new ModelRenderer(this, 40, 51);
+  this.Rleg21.addBox(-17.0F, 0.5F, -3.0F, 18, 2, 3, 0.0F);
+  this.Rleg21.setRotationPoint(-3.0F, 18.0F, 10.0F);
+  this.Rleg21.rotateAngleX = 0.0F;
+  this.Rleg21.rotateAngleY = 0.9387602F;
+  this.Rleg21.rotateAngleZ = 0.7435722F;
+  this.Rleg21.mirror = false;
+  this.Rleg22 = new ModelRenderer(this, 21, 14);
+  this.Rleg22.addBox(5.0F, 0.7F, 11.5F, 2, 8, 4, 0.0F);
+  this.Rleg22.setRotationPoint(-3.0F, 18.0F, 10.0F);
+  this.Rleg22.rotateAngleX = 0.5948578F;
+  this.Rleg22.rotateAngleY = -1.106068F;
+  this.Rleg22.rotateAngleZ = -0.2230717F;
+  this.Rleg22.mirror = false;
+  this.Rleg23 = new ModelRenderer(this, 10, 18);
+  this.Rleg23.addBox(5.0F, 8.7F, 12.5F, 2, 5, 3, 0.0F);
+  
+  this.Rleg23.mirror = false;
+  this.Rleg24 = new ModelRenderer(this, 19, 7);
+  this.Rleg24.addBox(6.0F, 13.7F, 13.5F, 1, 3, 2, 0.0F);
+  
+  this.Rleg24.mirror = false;
+  this.Rleg25 = new ModelRenderer(this, 36, 7);
+  this.Rleg25.addBox(6.0F, 16.7F, 14.5F, 1, 2, 1, 0.0F);
+  
+  this.Rleg25.mirror = false;
+  this.Rleg26 = new ModelRenderer(this, 78, 58);
+  this.Rleg26.addBox(-21.0F, -2.5F, -3.0F, 22, 3, 3, 0.0F);
+  
+  this.Rleg26.mirror = false;
+  this.Rleg27 = new ModelRenderer(this, 42, 1);
+  this.Rleg27.addBox(-25.0F, -2.0F, -2.5F, 4, 2, 2, 0.0F);
+  
+  this.Rleg27.mirror = false;
+  this.Rleg28 = new ModelRenderer(this, 27, 7);
+  this.Rleg28.addBox(-28.0F, -1.5F, -2.0F, 3, 1, 1, 0.0F);
+  
+  this.Rleg28.mirror = true;
+  this.Rleg22.addChild(this.Rleg23);
+  this.Rleg22.addChild(this.Rleg24);
+  this.Rleg22.addChild(this.Rleg25);
+  this.Rleg21.addChild(this.Rleg26);
+  this.Rleg21.addChild(this.Rleg27);
+  this.Rleg21.addChild(this.Rleg28);
+  
+  this.Lhand1 = new ModelRenderer(this, 99, 66);
+  this.Lhand1.mirror = false;
+  this.Lhand1.addBox(-2.0F, -2.5F, -0.5F, 12, 3, 2, 0.0F);
+  this.Lhand1.setRotationPoint(4.0F, 4.0F, -3.0F);
+  this.Lhand1.rotateAngleX = -0.669215F;
+  this.Lhand1.rotateAngleY = 1.645147F;
+  this.Lhand1.rotateAngleZ = 0.3717861F;
+  this.Lhand2 = new ModelRenderer(this, 74, 77);
+  this.Lhand2.mirror = false;
+  this.Lhand2.addBox(3.7F, 5.5F, -5.5F, 18, 3, 2, 0.0F);
+  this.Lhand2.setRotationPoint(4.0F, 4.0F, -3.0F);
+  this.Lhand2.rotateAngleX = 0.03717861F;
+  this.Lhand2.rotateAngleY = 0.9387602F;
+  this.Lhand2.rotateAngleZ = -0.9294652F;
+  this.Lhand3 = new ModelRenderer(this, 70, 70);
+  this.Lhand3.mirror = false;
+  this.Lhand3.addBox(10.0F, 8.5F, -5.5F, 4, 2, 2, 0.0F);
+  this.Lhand4 = new ModelRenderer(this, 55, 60);
+  this.Lhand4.mirror = false;
+  this.Lhand4.addBox(13.7F, 8.5F, -5.5F, 8, 3, 2, 0.0F);
+  this.Lhand5 = new ModelRenderer(this, 1, 51);
+  this.Lhand5.mirror = false;
+  this.Lhand5.addBox(3.0F, -24.0F, -3.5F, 15, 6, 1);
+  this.Lhand5.setRotationPoint(4.0F, 4.0F, -3.0F);
+  this.Lhand5.rotateAngleX = -0.1487144F;
+  this.Lhand5.rotateAngleY = 1.124661F;
+  this.Lhand5.rotateAngleZ = 1.041001F;
+  this.Lhand2.addChild(this.Lhand3);
+  this.Lhand2.addChild(this.Lhand4);
+  
+  this.Rhand1 = new ModelRenderer(this, 99, 66);
+  this.Rhand1.addBox(-2.0F, -0.5F, -0.5F, 12, 3, 2, 0.0F);
+  this.Rhand1.setRotationPoint(-4.0F, 4.0F, -3.0F);
+  this.Rhand1.rotateAngleX = -2.490967F;
+  this.Rhand1.rotateAngleY = 1.645147F;
+  this.Rhand1.rotateAngleZ = 0.3717861F;
+  this.Rhand1.mirror = false;
+  this.Rhand2 = new ModelRenderer(this, 74, 77);
+  this.Rhand2.addBox(3.7F, 5.5F, 2.0F, 18, 3, 2, 0.0F);
+  this.Rhand2.setRotationPoint(-4.0F, 4.0F, -3.0F);
+  this.Rhand2.rotateAngleX = -0.03717861F;
+  this.Rhand2.rotateAngleY = 2.202832F;
+  this.Rhand2.rotateAngleZ = -0.9294652F;
+  this.Rhand2.mirror = false;
+  this.Rhand3 = new ModelRenderer(this, 70, 70);
+  this.Rhand3.addBox(9.7F, 8.5F, 2.0F, 4, 2, 2, 0.0F);
+  
+  this.Rhand3.mirror = false;
+  this.Rhand4 = new ModelRenderer(this, 55, 60);
+  this.Rhand4.addBox(13.7F, 8.5F, 2.0F, 8, 3, 2, 0.0F);
+  
+  this.Rhand4.mirror = false;
+  this.Rhand5 = new ModelRenderer(this, 1, 40);
+  this.Rhand5.addBox(6.0F, -23.5F, -3.0F, 15, 6, 1, 0.0F);
+  this.Rhand5.setRotationPoint(-4.0F, 4.0F, -3.0F);
+  this.Rhand5.rotateAngleX = 0.291439F;
+  this.Rhand5.rotateAngleY = 1.68234F;
+  this.Rhand5.rotateAngleZ = 0.83775806F;
+  
+  this.Rhand5.mirror = false;
+  this.Rhand2.addChild(this.Rhand3);
+  this.Rhand2.addChild(this.Rhand4);
+  
+  this.RW1 = new ModelRenderer(this, 31, 89);
+  this.RW1.addBox(-0.5F, -30.0F, -5.0F, 1, 30, 9, 0.0F);
+  this.RW1.setRotationPoint(-4.0F, 12.0F, 4.0F);
+  this.RW1.rotateAngleX = 0.2830749F;
+  this.RW1.rotateAngleY = 1.104933F;
+  this.RW1.rotateAngleZ = -0.4810477F;
+  this.RW1.mirror = false;
+  this.RW2 = new ModelRenderer(this, 0, 83);
+  this.RW2.addBox(-0.5F, -32.0F, -7.0F, 1, 32, 13, 0.0F);
+  this.RW2.setRotationPoint(-4.0F, 12.0F, 4.0F);
+  this.RW2.rotateAngleX = 1.173088F;
+  this.RW2.rotateAngleY = 1.793867F;
+  this.RW2.rotateAngleZ = -0.7807556F;
+  this.RW2.mirror = false;
+  this.LW1 = new ModelRenderer(this, 53, 89);
+  this.LW1.mirror = false;
+  this.LW1.addBox(-0.5F, -30.0F, -5.0F, 1, 30, 9, 0.0F);
+  this.LW1.setRotationPoint(5.0F, 12.0F, 4.0F);
+  this.LW1.rotateAngleX = -0.2830749F;
+  this.LW1.rotateAngleY = 2.03666F;
+  this.LW1.rotateAngleZ = -0.4810477F;
+  this.LW2 = new ModelRenderer(this, 75, 83);
+  this.LW2.mirror = false;
+  this.LW2.addBox(-0.5F, -32.0F, -7.0F, 1, 32, 13, 0.0F);
+  this.LW2.setRotationPoint(5.0F, 12.0F, 4.0F);
+  this.LW2.rotateAngleX = -1.173088F;
+  this.LW2.rotateAngleY = 1.347743F;
+  this.LW2.rotateAngleZ = -0.7807556F;
+}
+
+public void func_78088_a(Entity entity, float f, float f1, float f2, float f3, float f4, float f5)
+{
+  setRotationAngles(f, f1, f2, f3, f4, f5);
+  this.head1.render(f5);
+  this.horn3.render(f5);
+  this.chest.render(f5);
+  this.body1.render(f5);
+  this.body2.render(f5);
+  this.tail1.render(f5);
+  this.tail2.render(f5);
+  this.Lshoulder1.render(f5);
+  this.Lshoulder2.render(f5);
+  this.Lshoulder3.render(f5);
+  this.Lshoulder4.render(f5);
+  this.Lshoulder5.render(f5);
+  this.Lshoulder2ex.render(f5);
+  this.Rshoulder1.render(f5);
+  this.Rshoulder2.render(f5);
+  this.Rshoulder3.render(f5);
+  this.Rshoulder4.render(f5);
+  this.Rshoulder5.render(f5);
+  this.Rshoulder2ex.render(f5);
+  this.Lleg1.render(f5);
+  this.Lleg2.render(f5);
+  this.Rleg1.render(f5);
+  this.Rleg2.render(f5);
+  this.Lleg21.render(f5);
+  this.Lleg22.render(f5);
+  
+  this.Rleg21.render(f5);
+  this.Rleg22.render(f5);
+  
+  this.Lhand1.render(f5);
+  this.Lhand2.render(f5);
+  
+  this.Lhand5.render(f5);
+  this.Rhand1.render(f5);
+  this.Rhand2.render(f5);
+  
+  this.Rhand5.render(f5);
+  this.RW1.render(f5);
+  this.RW2.render(f5);
+  this.LW1.render(f5);
+  this.LW2.render(f5);
+}
+
+public void setRotationAngles(float par1, float par2, float par3, float par4, float par5, float par6)
+
+
+{
+	
+  this.head1.rotateAngleY = (par4 / 57.295776F + 1.570796F);
+  this.head1.rotateAngleZ = (par5 / 57.295776F);
+  this.horn3.rotateAngleY = (par4 / 57.295776F + 1.570796F);
+  this.horn3.rotateAngleZ = (par5 / 57.295776F);
+  
+  this.Lleg1.rotateAngleY = (0.9387602F + MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Lleg2.rotateAngleY = (0.9387602F + MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Lleg1.rotateAngleZ = (-0.5205005F + MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  this.Lleg2.rotateAngleZ = (0.8922867F + MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  
+  this.Rleg1.rotateAngleY = (2.202832F + MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Rleg2.rotateAngleY = (-0.957348F + MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Rleg1.rotateAngleZ = (-0.5205005F - MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  this.Rleg2.rotateAngleZ = (-0.8922867F + MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  
+  this.Lleg21.rotateAngleY = (2.202832F - MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Lleg22.rotateAngleY = (1.08748F - MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Lleg21.rotateAngleZ = (0.7435722F + MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  this.Lleg22.rotateAngleZ = (0.2230717F + MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  
+  this.Rleg21.rotateAngleY = (0.9387602F - MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Rleg22.rotateAngleY = (-1.106068F - MathHelper.cos(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 1.0F);
+  this.Rleg21.rotateAngleZ = (0.7435722F + MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  this.Rleg22.rotateAngleZ = (-0.2230717F - MathHelper.sin(par1 * 0.3662F + 3.1415927F) * 1.0F * par2 * 0.3F);
+  if (this.wing)
+  {
+    this.RW1.rotateAngleZ = (MathHelper.cos(par3 * 3.3F) * 3.1415927F * 0.3F - 0.8F);
+    this.LW1.rotateAngleZ = this.RW1.rotateAngleZ;
+    this.RW2.rotateAngleZ = (MathHelper.cos(par3 * 3.3F) * 3.1415927F * 0.3F - 0.8F);
+    this.LW2.rotateAngleZ = this.RW2.rotateAngleZ;
+  }
+  else
+  {
+    this.RW1.rotateAngleZ = -0.4810477F;
+    this.RW2.rotateAngleZ = -0.7807556F;
+    this.LW1.rotateAngleZ = -0.4810477F;
+    this.LW2.rotateAngleZ = -0.7807556F;
+  
+ }
+}
+}

@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "axis=y":  { "model": "antiplantvirus:block/apv_virallog" },
+        "axis=z":  { "model": "antiplantvirus:block/apv_virallog", "x": 90 },
+        "axis=x":  { "model": "antiplantvirus:block/apv_virallog", "x": 90, "y": 90 }
+    }
+}
